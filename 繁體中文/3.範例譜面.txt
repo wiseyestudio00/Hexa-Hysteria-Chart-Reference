@@ -1,0 +1,68 @@
+# 這個譜面是範例譜面，使用全部現有的音符跟行動
+# 你可以直接把這個譜全部copy&paste到chart.txt，看看效果
+
+# 更換字
+# 第29拍開始，花費三拍，中途使用隨機文字，更換最後endscreen顯示的文字
+# (我把這個行動擺到前面來證明你不需要照順序排音符跟行動)
+# (但我還是建議盡量照順序排喔)
+a changetext Composer 29 3 Alternate@Composer true true
+a changetext Difficulty 29 3 Alternate@Difficulty true true
+a changetext Songname 29 3 Alternate@Song@Name true true
+
+# 打擊拍 在 第零拍 的 右中 短音符
+n short rc 0
+
+# 打擊拍 在 第一拍 的 右上 向內滑動音符
+n swipe in rt 1
+
+# 打擊拍 在 第二拍 的 左上 向外滑動音符
+n swipe out lt 1
+
+# 開打拍 在 第三拍 結束拍 在 第十拍 的 左中 長音符
+n long lc 3 10
+
+# 開打拍 在 第三拍 結束拍 在 第十拍 需要打擊10次的 左下 連打音符
+n compound lb 3 10 10
+
+# 向右旋轉360度 在第十一拍開始，耗時5拍
+a changecamera angle 11 5 0 0 360 easeinoutsine
+# 向左轉360度 在第16拍開始 耗時3拍
+a changecamera angle 16 3 0 0 -360 linear
+
+# 遠離舞台 三單位 在第20拍開始 耗時3拍
+a changecamera position 20 3 0 0 -3 easeinoutsine
+# 靠近舞台 三單位 在第23拍開始 耗時三拍
+a changecamera position 23 3 0 0 3 linear
+
+# 變換字的顏色
+# 第26拍開始，花費三拍，換成半透明的紅色
+a changecolor text 26 3 256_0_0_125 Score Accuracy SongName Chartname Composer Combo easeinoutsine
+
+
+# 更換音符顏色
+a changecolor note 32 3 0_0_0_256 short compound swipe long easeinoutsine
+a changecolor judgement 32 0 256_256_256_256 perfect great good bad miss easeinoutsine
+# 打擊拍 在 第35拍 的 右中 短音符
+n short rc 35
+
+# 打擊拍 在 第36拍 的 右上 向內滑動音符
+n swipe in rt 36
+
+# 打擊拍 在 第36拍 的 左上 向外滑動音符
+n swipe out lt 36
+
+# 開打拍 在 第37拍 結束拍 在 第40拍 的 左中 長音符
+n long lc 37 40
+
+# 開打拍 在 第37拍 結束拍 在 第40拍 需要打擊10次的 左下 連打音符
+n compound lb 37 40 10
+
+a changestage square 40 1 easeinoutsine
+a changestage triangle 42 1 easeinoutsine
+a changestage waterfall_6 44 1 easeinoutsine
+a changestage drop_6 46 1 easeinoutsine
+a changestage drop_4 48 1 easeinoutsine
+a changestage side_6 50 1 easeinoutsine
+a changestage butterfly_6 52 1 easeinoutsine
+
+
