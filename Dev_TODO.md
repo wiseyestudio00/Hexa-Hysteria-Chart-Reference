@@ -17,3 +17,4 @@
 - [ ] Move the cloud save function to player setting
 - [ ] Automatically use cloud save in End Screen
 - [ ] Make it a user preference
+- [ ] Save the user preference as well
