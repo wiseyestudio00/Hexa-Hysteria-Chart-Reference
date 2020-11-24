@@ -17,7 +17,7 @@
 ## Game Design
 - [ ] Figure out the prerequisite of unlocking the true Cover
 ## Cloud
-- [ ] Move the cloud save function to player setting
+- [X] Move the cloud save function to player setting
 - [ ] Automatically use cloud save in End Screen
 - [ ] Make it a user preference
 - [ ] Save the user preference as well
