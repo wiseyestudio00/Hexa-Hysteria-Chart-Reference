@@ -1,6 +1,7 @@
 # TODO
 ## Music and other assets
 - [ ] Menu Music
+- [ ] Start Menu Background
 ## UI
 - [ ] Improve Loading Screen
 ### Shop and Inventory
@@ -8,6 +9,8 @@
 - [ ] Make Inventory Menu
 ### Player Info UI
 - [ ] Improve it
+### Notify Menu
+- [ ] A bug: Move the page to its top when the message is longer then the menu itself
 ## Stage
 ### Improve Effects
 - [ ] Special FX for the simultaneous note
