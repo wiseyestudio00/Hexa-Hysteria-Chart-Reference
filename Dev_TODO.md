@@ -21,10 +21,9 @@
 - [ ] Figure out the prerequisite of unlocking the true Cover
 ## Cloud
 - [X] Move the cloud save function to player setting
-- [X] Complete the player setting
-- [ ] Automatically use cloud save in End Screen
-- [ ] Make it a user preference
 - [X] Save the user preference as well
+- [Ｘ] Make Auto Update a user preference
+- [ ] Automatically use cloud save in End Screen
 
 ## PlayerSetting
-- [ ] Move the save file from PlayerPrefs to custom save system
+- [X] Move the save file from PlayerPrefs to custom save system
