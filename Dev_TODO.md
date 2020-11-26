@@ -11,7 +11,7 @@
 ### Player Info UI
 - [ ] Improve it
 ### Notify Menu
-- [X] A bug: Move the page to its top when the message is longer then the menu itself
+- [X] Fix bug: Move the page to its top when the message is longer then the menu itself
 
 ## Stage
 ### Improve Effects
@@ -28,3 +28,4 @@
 
 ## PlayerSetting
 - [X] Move the save file from PlayerPrefs to custom save system
+- [X] Auto Scroll back to start when restarting
