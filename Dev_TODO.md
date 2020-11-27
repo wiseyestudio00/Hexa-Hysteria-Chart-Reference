@@ -17,6 +17,8 @@
 ### Improve Effects
 - [ ] Special FX for the simultaneous note
 - [X] Black Bars for Screen Adjustment
+### Achievement System
+- [x] Achievements For Charts
 
 ## Game Design
 - [ ] Figure out the prerequisite of unlocking the true Cover
