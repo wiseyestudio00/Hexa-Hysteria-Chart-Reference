@@ -23,8 +23,8 @@
 ## Cloud
 - [X] Move the cloud save function to player setting
 - [X] Save the user preference as well
-- [Ｘ] Make Auto Update a user preference
-- [ ] Automatically use cloud save in End Screen
+- [X] Make Auto Update a user preference
+- [X] Automatically use cloud save in End Screen
 
 ## PlayerSetting
 - [X] Move the save file from PlayerPrefs to custom save system
