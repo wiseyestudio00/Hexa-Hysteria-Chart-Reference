@@ -12,13 +12,15 @@
 - [ ] Improve it
 ### Notify Menu
 - [X] Fix bug: Move the page to its top when the message is longer then the menu itself
+### Particle Effects
+- [X] I think with Particle Effects, the UI would be much easier to look at and navigate
 
 ## Stage
 ### Improve Effects
 - [ ] Special FX for the simultaneous note
 - [X] Black Bars for Screen Adjustment
 ### Achievement System
-- [x] Achievements For Charts
+- [ ] Achievements For Charts
 
 ## Game Design
 - [ ] Figure out the prerequisite of unlocking the true Cover
@@ -31,3 +33,6 @@
 ## PlayerSetting
 - [X] Move the save file from PlayerPrefs to custom save system
 - [X] Auto Scroll back to start when restarting
+
+## IAP
+- [X] DLC Check (Hopefully it's working now)
