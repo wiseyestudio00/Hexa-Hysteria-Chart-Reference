@@ -9,7 +9,7 @@
 - [ ] Improve Shop Menu
 - [ ] Make Inventory Menu
 ### Player Info UI
-- [ ] Improve it
+- [X] Improve it (Now it is part of player setting menu)
 ### Notify Menu
 - [X] Fix bug: Move the page to its top when the message is longer then the menu itself
 ### Particle Effects
@@ -21,6 +21,7 @@
 - [X] Black Bars for Screen Adjustment
 ### Achievement System
 - [ ] Achievements For Charts
+- [X] Finish Prototype
 
 ## Game Design
 - [ ] Figure out the prerequisite of unlocking the true Cover
