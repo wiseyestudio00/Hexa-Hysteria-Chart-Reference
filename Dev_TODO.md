@@ -46,3 +46,8 @@ Because we can insert, just use the current node system (create a node, insert i
 
 - [ ] Set Variables
 - [ ] Persistent Data
+
+## other
+- [ ] First public testing
+- [ ] Language Translates (Japanese, English, hopefully Korean)
+- [ ] Forth Chapter
