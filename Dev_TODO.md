@@ -37,3 +37,12 @@
 
 ## IAP
 - [X] DLC Check (Hopefully it's working now)
+
+## Visual Novel
+- [ ] Choice
+
+- [ ] If
+Because we can insert, just use the current node system (create a node, insert it in if the condition is true)
+
+- [ ] Set Variables
+- [ ] Persistent Data
