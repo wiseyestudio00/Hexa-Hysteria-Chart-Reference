@@ -50,4 +50,6 @@ Because we can insert, just use the current node system (create a node, insert i
 ## other
 - [ ] First public testing
 - [ ] Language Translates (Japanese, English, hopefully Korean)
-- [ ] Forth Chapter
+- [ ] Forth Chapter Artists
+- [ ] Main Menu Background
+- [ ] Main Menu Music
