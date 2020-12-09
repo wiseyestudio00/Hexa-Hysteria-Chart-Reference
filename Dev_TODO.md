@@ -4,7 +4,7 @@
 - [ ] Start Menu Background
 
 ## UI
-- [ ] Improve Loading Screen
+- [X] Improve Loading Screen
 ### Shop and Inventory
 - [ ] Improve Shop Menu
 - [ ] Make Inventory Menu
