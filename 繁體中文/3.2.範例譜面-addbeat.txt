@@ -1,0 +1,78 @@
+// addbeat的示範譜面
+
+//暫停
+a addbeat note 0.5 3 1-1 3 linear
+n short rc 1
+n catch lc 1
+n long lt 1 2
+n compound rt 1 2 10
+n swipe out rb 1
+
+//「回彈」
+a addbeat note 4 3 5-5 3 easeinoutsine
+n short rc 5
+n catch lc 5
+n long lt 5 7
+n compound rt 5 7 10
+n swipe out rb 5
+
+// 倒退至底
+a addbeat note 10 5 12-12 10 linear
+n short rc 12
+n catch lc 12
+n long lt 12 14
+n compound rt 12 14 10
+n swipe out rb 12
+
+//回朔
+a addbeat note 23 0 24-24 1 linear
+a addbeat note 24 0 25-25 1 linear
+a addbeat note 25 0 26-26 1 linear
+n short rc 24
+n catch lc 24
+n long lt 24 26
+n compound rt 24 26 10
+n swipe out rb 24
+
+//暫停，瞬移，暫停
+a addbeat note 28 2 32-32 2 linear
+a addbeat note 30 0 34-34 -2 linear
+a addbeat note 30 2 32-32 2 linear
+n short rc 32
+n catch lc 32
+n long lt 32 34
+n compound rt 32 34 10
+n swipe out rb 32
+
+//放慢
+a addbeat note 39 4 40-41 2 linear
+n short rc 40
+n catch lc 41
+n long lt 41 42
+n compound rt 40 42 10
+n swipe out rb 40
+
+// 瞬間出現1
+a addbeat note 49 0 50000-50002 -49950 linear
+n short rc 51
+n short rc 53
+
+n short rc 50000
+n short rc 50002
+
+//瞬間出現2
+a addbeat note 57 0 50060-50060 -50000 linear
+n short rc 50060
+n catch lc 50060
+n long lt 50060 50062
+n compound rt 50060 50062 10
+n swipe out rb 50060
+
+//????
+a addbeat note 75 0 50075.1-50075.1 -50000 linear
+a addbeat note 75 2 75.1-75.1 3 easeinoutsine
+n swipe in rc 75
+n swipe in lc 75
+
+n short rc 50075.1
+n short lc 50075.1
