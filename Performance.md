@@ -1,6 +1,9 @@
-# 效能調查
+# 效能調查：Dec 24, 2020
 
-# A13
+UI的模糊都是用GrabPass執行的。
+舞台的背景模糊是通過相機執行的。
+
+## A13
 Release: November 11, 2019
 
 - iPhone 11
@@ -8,13 +11,13 @@ Release: November 11, 2019
 - iPhone 11 Pro Max
 - iPhone SE (第二代)
 
-## iPhone 11
+### iPhone 11
 測試 | 結果
 ------------ | ------------- |
 四層模糊UI疊加 | 穩定60fps
 舞台（深色＋模糊） | 穩定60fps
 
-# A10
+## A10
 Release: September 7, 2016
 
 - iPhone 7
@@ -25,7 +28,7 @@ Release: September 7, 2016
 
 尚未測試
 
-# A9
+## A9
 Release: September 9, 2015
 
 - iPhone 6s
@@ -33,7 +36,7 @@ Release: September 9, 2015
 - iPhone SE
 - iPad 2017
 
-## iPad 2017
+### iPad 2017
 測試 | 結果
 ------------ | ------------- |
 四層模糊UI疊加 | 42fps
@@ -45,7 +48,7 @@ Release: September 9, 2015
 舞台（深色） | 46-48fps（可以遊玩的極限）
 舞台 | 49-51fps（勉強可以遊玩）
 
-# A7
+## A7
 Release: September 20, 2013
 
 - iPhone 5S
@@ -53,7 +56,7 @@ Release: September 20, 2013
 - iPad Mini 2
 - iPad Mini 3
 
-## iPad Mini 2
+### iPad Mini 2
 測試 | 結果
 ------------ | ------------- |
 四層模糊UI疊加 | 12fps
