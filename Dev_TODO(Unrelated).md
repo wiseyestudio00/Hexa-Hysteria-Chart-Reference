@@ -7,7 +7,7 @@
 - [X] Improve Loading Screen
 ### Shop and Inventory
 - [ ] Improve Shop Menu
-- [ ] Make Inventory Menu
+- [Z] Make Inventory Menu (abandoned)
 ### Player Info UI
 - [X] Improve it (Now it is part of player setting menu)
 ### Notify Menu
@@ -39,6 +39,7 @@
 - [X] DLC Check (Hopefully it's working now)
 
 ## Visual Novel
+(I do not think I will be making this anymore)
 - [ ] Choice
 
 - [ ] If
@@ -52,4 +53,4 @@ Because we can insert, just use the current node system (create a node, insert i
 - [ ] Language Translates (Japanese, English, hopefully Korean)
 - [ ] Forth Chapter Artists
 - [ ] Main Menu Background
-- [ ] Main Menu Music
+- [X] Main Menu Music
