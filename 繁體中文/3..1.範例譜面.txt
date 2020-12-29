@@ -6,7 +6,7 @@
 # (我把這個行動擺到前面來證明你不需要照順序排音符跟行動)
 # (但我還是建議盡量照順序排喔)
 a changetext Composer 29 3 Alternate@Composer true true
-a changetext Difficulty 29 3 Alternate@Difficulty true true
+a changetext chartname 29 3 Alternate@Difficulty true true
 a changetext Songname 29 3 Alternate@Song@Name true true
 
 # 打擊拍 在 第零拍 的 右中 短音符
