@@ -1,30 +1,33 @@
 # TODO
 ## Music and other assets
-- [ ] Menu Music
 - [ ] Start Menu Background
-
-## UI
-- [X] Improve Loading Screen
-### Shop and Inventory
-- [ ] Improve Shop Menu
-- [Z] Make Inventory Menu (abandoned)
-### Player Info UI
-- [X] Improve it (Now it is part of player setting menu)
-### Notify Menu
-- [X] Fix bug: Move the page to its top when the message is longer then the menu itself
-### Particle Effects
-- [X] I think with Particle Effects, the UI would be much easier to look at and navigate
+- [X] Menu Music
 
 ## Stage
-### Improve Effects
-- [ ] Special FX for the simultaneous note
+- [ ] Figure out why music sometimes does not start at the right time
+- [ ] Improve Coloring Method
+- [ ] Special Effects for the simultaneous note (make them yellow)
+- [ ] Implement Allow Hit Action (for tutorial)
+- [ ] Fix AddBeat Action
+- [ ] Story Board
+  - [ ] Language System for Story Board
+- [ ] Tutorial Stage
 - [X] Black Bars for Screen Adjustment
+
+## Game Design
+- [ ] Implement True Cover System
+
 ### Achievement System
 - [ ] Achievements For Charts
 - [X] Finish Prototype
 
-## Game Design
-- [ ] Figure out the prerequisite of unlocking the true Cover
+## other
+- [ ] First public testing
+- [ ] Language Translates (Japanese, English, hopefully Korean)
+- [ ] Forth Chapter Artists
+- [ ] Main Menu Background
+- [X] Main Menu Music
+
 ## Cloud
 - [X] Move the cloud save function to player setting
 - [X] Save the user preference as well
@@ -37,6 +40,19 @@
 
 ## IAP
 - [X] DLC Check (Hopefully it's working now)
+- [X] Move to Song Pack Menu
+
+## UI
+- [X] Improve Loading Screen
+### Shop and Inventory
+- [X] Improve Shop Menu (Shop Menu is gone pog)
+- [X] Make Inventory Menu (abandoned)
+### Player Info UI
+- [X] Improve it (Now it is part of player setting menu)
+### Notify Menu
+- [X] Fix bug: Move the page to its top when the message is longer then the menu itself
+### Particle Effects
+- [X] I think with Particle Effects, the UI would be much easier to look at and navigate
 
 ## Visual Novel
 (I do not think I will be making this anymore)
@@ -47,10 +63,3 @@ Because we can insert, just use the current node system (create a node, insert i
 
 - [ ] Set Variables
 - [ ] Persistent Data
-
-## other
-- [ ] First public testing
-- [ ] Language Translates (Japanese, English, hopefully Korean)
-- [ ] Forth Chapter Artists
-- [ ] Main Menu Background
-- [X] Main Menu Music
