@@ -4,14 +4,14 @@
 - [X] Menu Music
 
 ## Stage
-- [ ] Figure out why music sometimes does not start at the right time
+- [X] Figure out why music sometimes does not start at the right time
 - [ ] Improve Coloring Method
-- [ ] Special Effects for the simultaneous note (make them yellow)
-- [ ] Implement Allow Hit Action (for tutorial)
+  - [ ] Special Effects for the simultaneous note (make them yellow)
 - [ ] Fix AddBeat Action
 - [ ] Story Board
   - [ ] Language System for Story Board
 - [ ] Tutorial Stage
+- [X] Implement AUTO Hit Action (for tutorial only)
 - [X] Black Bars for Screen Adjustment
 
 ## Game Design
@@ -22,6 +22,7 @@
 - [X] Finish Prototype
 
 ## other
+- [ ] Renderer Instance Block Helper Function
 - [ ] First public testing
 - [ ] Language Translates (Japanese, English, hopefully Korean)
 - [ ] Forth Chapter Artists
