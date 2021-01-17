@@ -1,78 +1,80 @@
 // addbeat的示範譜面
 
 //暫停
-a addbeat note 0.5 3 1-1 3 linear
-n short rc 1
-n catch lc 1
-n long lt 1 2
-n compound rt 1 2 10
-n swipe out rb 1
+a addbeat 0.5 3 1 3 linear
+n short rc 1:1
+n catch lc 1:1
+n long lt 1 2:1
+n compound rt 1 2 10:1
+n swipe out rb 1:1
+
 
 //「回彈」
-a addbeat note 4 3 5-5 3 easeinoutsine
-n short rc 5
-n catch lc 5
-n long lt 5 7
-n compound rt 5 7 10
-n swipe out rb 5
+a addbeat 4 3 2 3 easeinoutsine
+n short rc 5:2
+n catch lc 5:2
+n long lt 5 7:2
+n compound rt 5 7 10:2
+n swipe out rb 5:2
 
 // 倒退至底
-a addbeat note 10 5 12-12 10 linear
-n short rc 12
-n catch lc 12
-n long lt 12 14
-n compound rt 12 14 10
-n swipe out rb 12
+a addbeat 10 5 3 10 linear
+n short rc 12:3
+n catch lc 12:3
+n long lt 12 14:3
+n compound rt 12 14 10:3
+n swipe out rb 12:3
 
 //回朔
-a addbeat note 23 0 24-24 1 linear
-a addbeat note 24 0 25-25 1 linear
-a addbeat note 25 0 26-26 1 linear
-n short rc 24
-n catch lc 24
-n long lt 24 26
-n compound rt 24 26 10
-n swipe out rb 24
+a addbeat 23 0 4 1 linear
+a addbeat 24 0 4 1 linear
+a addbeat 25 0 4 1 linear
+n short rc 24:4
+n catch lc 24:4
+n long lt 24 26:4
+n compound rt 24 26 10:4
+n swipe out rb 24:4
 
 //暫停，瞬移，暫停
-a addbeat note 28 2 32-32 2 linear
-a addbeat note 30 0 34-34 -2 linear
-a addbeat note 30 2 32-32 2 linear
-n short rc 32
-n catch lc 32
-n long lt 32 34
-n compound rt 32 34 10
-n swipe out rb 32
+a addbeat 28 2 5 2 linear
+a addbeat 30 0 5 -2 linear
+a addbeat 30 2 5 2 linear
+n short rc 32:5
+n catch lc 32:5
+n long lt 32 34:5
+n compound rt 32 34 10:5
+n swipe out rb 32:5
 
 //放慢
-a addbeat note 39 4 40-41 2 linear
-n short rc 40
-n catch lc 41
-n long lt 41 42
-n compound rt 40 42 10
-n swipe out rb 40
+a addbeat 39 4 6 2 linear
+n short rc 40:6
+n catch lc 41:6
+n long lt 41 42:6
+n compound rt 40 42 10:6
+n swipe out rb 40:6
 
 // 瞬間出現1
-a addbeat note 49 0 50000-50002 -49950 linear
+a addbeat 49 0 7 -49950 linear
 n short rc 51
 n short rc 53
 
-n short rc 50000
-n short rc 50002
+n short rc 50000:7
+n short rc 50002:7
 
 //瞬間出現2
-a addbeat note 57 0 50060-50060 -50000 linear
-n short rc 50060
-n catch lc 50060
-n long lt 50060 50062
-n compound rt 50060 50062 10
-n swipe out rb 50060
+a addbeat 57 0 8 -50000 linear
+n short rc 50060:8
+n catch lc 50060:8
+n long lt 50060 50062:8
+n compound rt 50060 50062 10:8
+n swipe out rb 50060:8
 
 //????
-a addbeat note 75 0 50075.1-50075.1 -50000 linear
-a addbeat note 75 2 75.1-75.1 3 easeinoutsine
+a addbeat 75 0 9 -50000 linear
+a addbeat 75 2 9 3 easeinoutsine
+
 n swipe in rc 75
 n swipe in lc 75
 
-n short rc 50075.1
-n short lc 50075.1
+n short rc 50075:9
+n short lc 50075:9
