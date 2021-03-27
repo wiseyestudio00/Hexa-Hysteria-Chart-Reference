@@ -18,4 +18,4 @@
 # V0.1 Build 26 Change log
 ## 一次可測試不同譜面
 之前，一次只能測試一面譜，現在可以在TestChart檔案夾裡，加入很多譜面，並且在開發者介面裡選擇要測試哪一個譜面。<br>
-詳細的使用影片：TODO
+詳細的使用影片：https://www.youtube.com/watch?v=2OVLGHEycWI
