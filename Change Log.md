@@ -117,15 +117,8 @@ Swipe現在是鈴鐺的聲音。
 同上
 
 
-# V0.1 Build 31
-## 軌道顏色簡化格式
-現在的軌道顏色格式太複雜了。想要簡化。
-
-`a hidestage true/false 開始拍 結束拍 算式模式`
-
-`a hidenote true/false 開始拍 結束拍 算式模式`
-
-## 讓Test Chart的Start Beat跟 Addbeat 可以一起使用
-同上
-
-## 製譜器 V0.1
+# V.0.1 Build 32
+- View Stage修復
+- 尾判
+- 移除主畫面，現在進去直接會是歌單選擇畫面
+- 修正Easing.Bounce跟Easing.Elastic
