@@ -124,3 +124,37 @@ Swipe現在是鈴鐺的聲音。
 - 尾判
 - 移除主畫面，現在進去直接會是歌單選擇畫面
 - 修正Easing.Bounce跟Easing.Elastic
+
+# V.0.1 Build 33
+
+## 1. 準備封測
+- 增加了一個封測章節，裡面有`Journey's End`，`Umami`，`Melt In Night`，跟`Reflected`
+- 更新玩家設定的UI
+- 改了暫停畫面。而且暫停結束後會倒數`3, 2, 1`了
+
+## 2. 測試譜面更新
+兩個大改變：
+1. `TestChart`裡現在除了不同的歌的檔案夾，每個檔案夾裡還可以放不同的譜面。只要是`chart.名字.txt`的檔案都會被認定是譜面，並且被列出來（包括以前的`chart.txt`
+
+比如說，現在可以變成像
+
+```
+TestChart - |
+            | Journey's End - | level.json
+                              | audio.ogg
+                              | chart.easy.txt
+                              | chart.medium.txt
+                              | chart.hard.txt
+```
+
+2. 把「製作中的譜面」的下載方式改變了。之前會在進入遊戲前統一下載，現在要去開發者介面裡，並且按下`Reload`按鍵，遊戲就會自動下載那些測試中的譜面到一個叫做`DevSong`的檔案夾（跟`TestChart`同層）。
+
+這是全自動的，請不要動DevSong裡頭的檔案！
+
+```
+TestChart (你想要「製作的譜面」擺在這裡)
+DevSong（其他人正在製作中的譜面會在這裏。不要動這個檔案夾裡的檔案！）
+Save（玩家的存檔）
+```
+## 3. 其他
+- iOS：上滑一次變兩次了
