@@ -101,8 +101,8 @@ n short lb 44.75
 n short lb 45
 n swipe in rc 45.5
 n short lt 46
-a changecamera angle 46 2 0 0 15 easeinsine
-a changecamera angle 48 44 0 0 510 linear
+a movecamera angle 46 2 0 0 15 easeinsine
+a movecamera angle 48 44 0 0 510 linear
 n short lb 48
 n short lc 48.5
 n short lc 48.75
@@ -172,8 +172,8 @@ n short rb 77
 n short lb 77.5
 n short lc 78
 n swipe in rb lt 79
-a changecamera position 80 0.10 0 0 1 linear
-a changecamera position 80.1 0.25 0 0 -1 easeOutExpo
+a movecamera position 80 0.10 0 0 1 linear
+a movecamera position 80.1 0.25 0 0 -1 easeoutexpo
 n short rb lt 80.5
 n short rb lt 80.75
 n short rb lt 81
@@ -182,8 +182,8 @@ n swipe in lc 82
 n swipe in rc 82.5
 n swipe in lb 83
 n swipe in rt 83.5
-a changecamera position 84 0.10 0 0 1 linear
-a changecamera position 84.1 0.25 0 0 -1 easeOutExpo
+a movecamera position 84 0.10 0 0 1 linear
+a movecamera position 84.1 0.25 0 0 -1 easeoutexpo
 n short rc lc 84.5
 n short rc lc 84.75
 n short rc lc 85
@@ -192,8 +192,8 @@ n swipe out lb 86
 n swipe out rt 86.5
 n swipe out rb 87
 n swipe out lt 87.5
-a changecamera position 88 0.10 0 0 1 linear
-a changecamera position 88.1 0.25 0 0 -1 easeOutExpo
+a movecamera position 88 0.10 0 0 1 linear
+a movecamera position 88.1 0.25 0 0 -1 easeoutexpo
 n short rt lb 88.5
 n short rt lb 88.75
 n short rt lb 89
@@ -202,16 +202,16 @@ n swipe in rt 90
 n swipe in lb 90.5
 n swipe in rc 91
 n swipe in lc 91.5
-a changecamera position 92 0.10 0 0 1 linear
-a changecamera position 92.1 0.25 0 0 -1 easeOutExpo
+a movecamera position 92 0.10 0 0 1 linear
+a movecamera position 92.1 0.25 0 0 -1 easeoutexpo
 n swipe out rb lt 93
-a changecamera position 94 0.10 0 0 1 linear
-a changecamera position 94.1 0.25 0 0 -1 easeOutExpo
-a changecamera position 94.5 0.10 0 0 1 linear
-a changecamera position 94.6 0.25 0 0 -1 easeOutExpo
-a changecamera position 95 0.10 0 0 1 linear
-a changecamera position 95.1 0.25 0 0 -1 easeOutExpo
-a changecamera angle 92 2 0 0 15 easeoutsine
+a movecamera position 94 0.10 0 0 1 linear
+a movecamera position 94.1 0.25 0 0 -1 easeoutexpo
+a movecamera position 94.5 0.10 0 0 1 linear
+a movecamera position 94.6 0.25 0 0 -1 easeoutexpo
+a movecamera position 95 0.10 0 0 1 linear
+a movecamera position 95.1 0.25 0 0 -1 easeoutexpo
+a movecamera angle 92 2 0 0 15 easeoutsine
 n long rt 96 96.5
 n short lb 96.5
 n short lb 96.75
@@ -264,8 +264,8 @@ n long lc 122 123
 n swipe out lb 123
 n long lb 124 125
 n swipe in rb 125
-a changecamera angle 126 2 0 0 -15 easeinsine
-a changecamera angle 128 44 0 0 -510 linear
+a movecamera angle 126 2 0 0 -15 easeinsine
+a movecamera angle 128 44 0 0 -510 linear
 n short lb 128
 n short lc 128.5
 n short lc 128.75
@@ -358,7 +358,7 @@ n swipe out rt 174
 n swipe out rb 174.5
 n swipe out lc 175
 
-a changecamera angle 172 2 0 0 -15 easeoutsine
+a movecamera angle 172 2 0 0 -15 easeoutsine
 
 
 
