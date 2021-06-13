@@ -163,11 +163,16 @@ Save（玩家的存檔）
 
 ## 0. 重要！
 存檔方式改變了！之前的存檔已經報廢了，必須刪除後才行進行遊戲！
+iOS：進入Files/我的裝置/Hexa Hysteria/。刪除Save檔案夾
+Android：進入 Internal Storage/Android/data/com.WiseyeStudio.HexaHysteria/files。刪除Save檔案夾
+
+或者可以直接將程式刪除重新下載。
 
 ## 1. 準備封測
 - `Journey's End`去除了不存在的Hard。
 - 玩家現在可以從譜面選單調整音量以及音符速度。
 - 譜面選單顯示了之前的最佳成績，最佳Combo，譜師⋯⋯等等的資訊
+- 進入舞台後，如果曲繪過黑，遊戲會自動計算一層白色的Mask來遮過黑的部分，但是亮色的地方則是保留（總之就是曲繪會變亮）
 
 ## 2. 新增譜面格式
 - `ChangeCamera`更名為`MoveCamera`。所有功能照舊，只是名字變了。
