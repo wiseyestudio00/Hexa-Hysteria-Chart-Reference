@@ -26,10 +26,10 @@ arguments：
 
 如果output path上已經有檔案了，就不會再寫入檔案。
 
-## player data
+## write player data
 寫進`player data`裡。
 
-Name：`player data`
+Name：`write player data`
 
 arguments：
 1. string - `key`：就是`key`
