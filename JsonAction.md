@@ -1,9 +1,28 @@
+# Generic Lock Menu
+
+## string InfoText;
+// 在畫面上直接提示的字串
+
+## Func<bool> UnlockCondition
+// 解鎖的條件
+
+## Action OnAttemptUnlockFailed
+// 在玩家試著解鎖，但是沒有能達成解鎖目標時發生的事
+
+## Action OnAttemptUnlock
+// 在玩家有能力解鎖時，確認是否真的要解鎖時發生的事
+
+## Action OnUnlockSuccessful
+// 在玩家確認要解鎖時發生的事
+// 會被系統自動用在適合的地方
+
 # IHasMultiTextDictionary
 為了因應多語言而需要在Json輸入的檔案。
 
 本質上就是一個`string to string Dictionary`（但是被包在一個`class`裡）。
 
 `Key`是`${某個標籤}_{語言}`，比如說`notify_english`，`notify_chinesetraditional`⋯⋯等等。其他`run time Action`就可以直接用`notify`當標籤，遊戲會試著用當前的語言來在字典裡尋找，如果找不到的話，就會試著找`notify_english`，如果連`notify_english`都沒有的話，就會丟出錯誤。
+
 
 # Serializable Action
 兩個需要輸入的東西：`Name`跟`arguments`。
@@ -43,8 +62,14 @@ arguments：
 1. string - `text_key`：要顯示的字串的`key`。這個`key`指的是在呼叫這個`Action`的`Load Data`裡，作為`IHasMultiTextDictionary`裡的`key`
 2. string - 要在按下`okay`時發生的事（todo: 要做嗎？）
 
+## notify confirm
 
-# Serializable Func
+發出`NotifyMenu.Instance.Confirm`
+
+arguments：
+1. string -
+
+# Serializable Condition
 會回傳`boolean`。跟`Serializable Action`一樣，需要`Name`跟`arguments`
 
 ## Player Data Has key
@@ -98,7 +123,7 @@ arguments：
 在玩家按下「切換隱藏背景按鈕」時，但是卻沒有達到解鎖條件時發生。通常會用notify來告知解鎖條件。
 
 ## HiddenBackgroundCondition
-`List of Serializable Func`
+`List of Serializable Condition`
 
 解鎖`Hidden Background`的條件。
 
